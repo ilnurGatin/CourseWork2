@@ -9,7 +9,7 @@ public class UserSet {
 
     public void addUser(User user) {
         if (userSet.contains(user)) {
-            throw new IllegalArgumentException("Такой юзер уже добавлен");
+            throw new IllegalArgumentException("Такой пользователь уже существует");
         } else {
             userSet.add(user);
         }
