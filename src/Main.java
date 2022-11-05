@@ -2,6 +2,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
+
         User ivan = new User("Ivan", 35);
         User sergey = new User("Sergey", 45);
         User ivanK = new User("Ivan", 36);
@@ -21,7 +22,6 @@ public class Main {
 
         String str = "Мышка сушек насушила, мышка мышек пригласила, мышки сушки кушать стала, зубы сразу все сломала";
         countWords(str);
-
     }
 
     public static void countWords(String str) {
@@ -43,6 +43,4 @@ public class Main {
             System.out.println(word + ": " + counterMap.get(word));
         }
     }
-
-
 }

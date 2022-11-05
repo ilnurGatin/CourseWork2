@@ -19,9 +19,6 @@ public class User {
         return age;
     }
 
-
-
-
     @Override
     public String toString() {
         return "User{" +
@@ -42,6 +39,4 @@ public class User {
     public int hashCode() {
         return Objects.hash(name, age);
     }
-
-
 }
